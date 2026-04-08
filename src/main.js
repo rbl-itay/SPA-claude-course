@@ -767,6 +767,17 @@ mobileMenu.querySelectorAll('a').forEach(a => {
   })
 })
 
+// Command badge rotation
+const cmdBadges = document.querySelectorAll('.cmd-badge')
+let activeBadge = 0
+setInterval(() => {
+  cmdBadges[activeBadge].classList.remove('active')
+  cmdBadges[activeBadge].querySelector('.cmd-dot').classList.remove('active-dot')
+  activeBadge = (activeBadge + 1) % cmdBadges.length
+  cmdBadges[activeBadge].classList.add('active')
+  cmdBadges[activeBadge].querySelector('.cmd-dot').classList.add('active-dot')
+}, 2000)
+
 // Scroll-in animations
 const observer = new IntersectionObserver(
   entries => {

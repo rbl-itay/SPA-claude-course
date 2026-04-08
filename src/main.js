@@ -105,21 +105,21 @@ app.innerHTML = `
                 <stop offset="100%" stop-color="#00d4ff" stop-opacity="0.3"/>
               </linearGradient>
             </defs>
-            <path class="signal-line l1" d="M 200 0 C 180 40 140 80 80 125"/>
-            <path class="signal-line l2" d="M 210 0 C 200 45 200 85 200 125"/>
-            <path class="signal-line l3" d="M 220 0 C 250 40 320 80 390 125"/>
-            <path class="signal-line l4" d="M 215 0 C 220 40 280 80 340 125" stroke-width="0.8"/>
+            <path class="signal-line l1" d="M 250 0 C 220 40 160 80 90 125"/>
+            <path class="signal-line l2" d="M 250 0 C 245 45 245 85 248 125"/>
+            <path class="signal-line l3" d="M 250 0 C 268 40 330 80 410 125"/>
+            <path class="signal-line l4" d="M 250 0 C 262 40 316 80 360 125" stroke-width="0.8"/>
             <circle r="3.5" fill="#00d4ff" opacity="0.95">
-              <animateMotion dur="2.0s" repeatCount="indefinite" path="M 200 0 C 180 40 140 80 80 125"/>
+              <animateMotion dur="2.0s" repeatCount="indefinite" path="M 250 0 C 220 40 160 80 90 125"/>
             </circle>
             <circle r="3" fill="#8b5cf6" opacity="0.95">
-              <animateMotion dur="2.3s" repeatCount="indefinite" begin="0.5s" path="M 210 0 C 200 45 200 85 200 125"/>
+              <animateMotion dur="2.3s" repeatCount="indefinite" begin="0.5s" path="M 250 0 C 245 45 245 85 248 125"/>
             </circle>
             <circle r="2.5" fill="#00d4ff" opacity="0.8">
-              <animateMotion dur="1.9s" repeatCount="indefinite" begin="1.0s" path="M 220 0 C 250 40 320 80 390 125"/>
+              <animateMotion dur="1.9s" repeatCount="indefinite" begin="1.0s" path="M 250 0 C 268 40 330 80 410 125"/>
             </circle>
             <circle r="2" fill="#a78bfa" opacity="0.8">
-              <animateMotion dur="2.5s" repeatCount="indefinite" begin="1.4s" path="M 215 0 C 220 40 280 80 340 125"/>
+              <animateMotion dur="2.5s" repeatCount="indefinite" begin="1.4s" path="M 250 0 C 262 40 316 80 360 125"/>
             </circle>
           </svg>
         </div>

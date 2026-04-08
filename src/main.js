@@ -470,17 +470,17 @@ app.innerHTML = `
           stroke="rgba(0,212,255,0.65)" stroke-width="1.3" fill="none" stroke-linecap="round"/>
         <text x="400" y="314" font-size="8" fill="rgba(255,255,255,0.28)" font-family="monospace" text-anchor="middle" letter-spacing="2">LIVE EEG SAMPLE STREAMS</text>
 
-        <!-- 38g callout bubble -->
-        <circle cx="145" cy="165" r="34" stroke="rgba(99,102,241,0.28)" stroke-width="1" fill="rgba(99,102,241,0.05)" stroke-dasharray="4,3"/>
-        <text x="145" y="161" font-size="22" font-weight="200" fill="rgba(255,255,255,0.72)" font-family="Inter, system-ui" text-anchor="middle">38g</text>
-        <text x="145" y="176" font-size="8" fill="rgba(255,255,255,0.38)" font-family="monospace" text-anchor="middle" letter-spacing="1">WEIGHT</text>
-        <line x1="179" y1="165" x2="248" y2="148" stroke="rgba(99,102,241,0.28)" stroke-width="0.9"/>
+        <!-- 38g callout bubble — positioned below label area to avoid overlap -->
+        <circle cx="108" cy="238" r="34" stroke="rgba(99,102,241,0.28)" stroke-width="1" fill="rgba(99,102,241,0.05)" stroke-dasharray="4,3"/>
+        <text x="108" y="234" font-size="22" font-weight="200" fill="rgba(255,255,255,0.72)" font-family="Inter, system-ui" text-anchor="middle">38g</text>
+        <text x="108" y="249" font-size="8" fill="rgba(255,255,255,0.38)" font-family="monospace" text-anchor="middle" letter-spacing="1">WEIGHT</text>
+        <line x1="142" y1="228" x2="250" y2="195" stroke="rgba(99,102,241,0.25)" stroke-width="0.9"/>
 
-        <!-- 2kHz callout bubble -->
-        <circle cx="655" cy="165" r="34" stroke="rgba(0,212,255,0.28)" stroke-width="1" fill="rgba(0,212,255,0.04)" stroke-dasharray="4,3"/>
-        <text x="655" y="161" font-size="17" font-weight="200" fill="rgba(255,255,255,0.72)" font-family="Inter, system-ui" text-anchor="middle">2 kHz</text>
-        <text x="655" y="176" font-size="8" fill="rgba(255,255,255,0.38)" font-family="monospace" text-anchor="middle" letter-spacing="1">SAMPLING</text>
-        <line x1="621" y1="165" x2="552" y2="148" stroke="rgba(0,212,255,0.28)" stroke-width="0.9"/>
+        <!-- 2kHz callout bubble — positioned below label area to avoid overlap -->
+        <circle cx="692" cy="238" r="34" stroke="rgba(0,212,255,0.28)" stroke-width="1" fill="rgba(0,212,255,0.04)" stroke-dasharray="4,3"/>
+        <text x="692" y="234" font-size="17" font-weight="200" fill="rgba(255,255,255,0.72)" font-family="Inter, system-ui" text-anchor="middle">2 kHz</text>
+        <text x="692" y="249" font-size="8" fill="rgba(255,255,255,0.38)" font-family="monospace" text-anchor="middle" letter-spacing="1">SAMPLING</text>
+        <line x1="658" y1="228" x2="550" y2="195" stroke="rgba(0,212,255,0.25)" stroke-width="0.9"/>
       </svg>
     </div>
   </section>

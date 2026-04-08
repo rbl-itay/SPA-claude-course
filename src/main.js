@@ -133,7 +133,7 @@ app.innerHTML = `
 
         <!-- Car SVG -->
         <div class="car-container">
-          <svg class="car-svg" viewBox="0 0 520 158" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg class="car-svg" viewBox="0 0 520 175" fill="none" xmlns="http://www.w3.org/2000/svg">
             <defs>
               <linearGradient id="cG" x1="0" y1="0" x2="1" y2="0">
                 <stop offset="0%" stop-color="#6366f1"/>

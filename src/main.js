@@ -126,8 +126,8 @@ app.innerHTML = `
 
         <!-- Command badges -->
         <div class="scene-badges">
-          <div class="cmd-badge b1"><span class="cmd-dot"></span>STEER LEFT</div>
-          <div class="cmd-badge b2 active"><span class="cmd-dot active-dot"></span>ACCELERATE</div>
+          <div class="cmd-badge b1 active"><span class="cmd-dot active-dot"></span>STEER LEFT</div>
+          <div class="cmd-badge b2"><span class="cmd-dot"></span>ACCELERATE</div>
           <div class="cmd-badge b3"><span class="cmd-dot"></span>CRUISE</div>
         </div>
 

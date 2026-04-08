@@ -208,6 +208,14 @@ a  { text-decoration: none; }
   border-color: var(--black);
 }
 
+/* Compact buttons inside split-section content */
+.split-content .btn-primary,
+.split-content .btn-outline {
+  padding: 11px 22px;
+  font-size: 13px;
+  align-self: flex-start;
+}
+
 /* =============================================
    HERO
    ============================================= */

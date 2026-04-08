@@ -822,7 +822,6 @@ a  { text-decoration: none; }
 .ch-wave span {
   display: block;
   flex: 1;
-  max-width: 5px;
   border-radius: 2px;
   background: rgba(0,212,255,0.75);
   animation: eeg-wave 1.3s ease-in-out infinite;

@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit|NotebookEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "git add -A && if ! git diff --cached --quiet; then MSG=$(git diff --cached --name-status | awk '{a=($1==\"M\"?\"update\":$1==\"A\"?\"add\":$1==\"D\"?\"delete\":\"change\"); print a\" \"$2}' | head -5 | tr '\\n' '|' | sed 's/|$//;s/|/, /g') && git commit -m \"$MSG\" && git push; fi 2>/dev/null || true",
+            "statusMessage": "Committing and pushing changes..."
+          }
+        ]
+      }
+    ]
+  }
+}
